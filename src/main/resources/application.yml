@@ -9,7 +9,7 @@ eureka:
 
 spring:
   application:
-    name: service-registry
+    name: eureka
   config:
     import: 'optional:configserver:'
   cloud:
@@ -17,5 +17,4 @@ spring:
       enabled: false
 
 server:
-  port: 8761
   shutdown: GRACEFUL
