@@ -15,6 +15,9 @@ spring:
   cloud:
     config:
       enabled: false
+    refresh:
+      enabled: false
 
 server:
   shutdown: GRACEFUL
+  port: 8761
